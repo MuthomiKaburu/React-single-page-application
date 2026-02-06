@@ -1,4 +1,11 @@
+## How to use
+-Enter your project in the necessary fields and click submit button and the values entered will be displayed at the botttom of the screen
+-to search for a project simply type the key workds for it and it will display as you type
+
+
+
 ## Features
+
 
 ###  Controlled Form Inputs
 - The Title and Description fields are **controlled inputs**.
