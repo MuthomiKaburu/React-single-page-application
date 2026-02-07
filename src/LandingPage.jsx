@@ -54,7 +54,7 @@ export default function LandingPage() {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
-          {errors.title && <p>{errors.title}</p>}
+          {errors.title && <p style={{color:"red"}}>{errors.title}</p>}
 
           <label htmlFor="description">Description</label>
           <input
@@ -65,7 +65,7 @@ export default function LandingPage() {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           />
-          {errors.description && <p>{errors.description}</p>}
+          {errors.description && <p style={{color:'red'}}>{errors.description}</p>}
 
           <button type="submit" className="button">
             Submit

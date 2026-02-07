@@ -115,7 +115,7 @@ button:hover {
     background-color:rgb(152, 86, 86);
     margin-top: 20px;
     border-radius: 10px;
-    max-width: 720px;
+    height: auto;
 }
 .search{
     height: 15vh;
@@ -174,7 +174,7 @@ button:hover {
 .content{
    padding-left: 20px;
    width: 700px;
-   height: 30vh;
+   height: auto;
 
 }
 .content h3{
